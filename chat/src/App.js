@@ -19,8 +19,8 @@ const defaultQuickReplies = [
 const initialMessages = [
     {
         type: 'text',
-        content: {text: '您好，我是AI助理，开源于：https://github.com/869413421/chatgpt-web。'},
-        user: {avatar: '//gitclone.com/download1/gitclone.png'},
+        content: {text: '你好，我是AI心理咨询师助理心晴，如需更专业的帮助请拨打免费心理援助热线020-81899120'},
+        user: {avatar: '//www.xingrui.space/static/imgs/evolove.png'},
     },
 ];
 
@@ -164,7 +164,7 @@ function App() {
                             title: 'More',
                         },
                     ],
-                    title: '基于chatGPT的AI助手',
+                    title: '心晴绿洲-心晴24小时陪伴',
                 }}
                 messages={messages}
                 renderMessageContent={renderMessageContent}
